@@ -3,7 +3,6 @@ import "./index.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
 import About from "./pages/about";
-import Footer from "./components/Footer";
 import Contact from "./pages/contact";
 import Projects from "./pages/projects";
 import Stars from "./Stars.svg";
@@ -21,7 +20,6 @@ function App() {
           <Route path="/contact" element={<Contact/>} />
           <Route path="/projects" element={<Projects/>} />
         </Routes>
-        {/* <Footer/> */}
       </div>
     </Router>
   );
