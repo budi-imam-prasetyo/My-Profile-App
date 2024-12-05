@@ -15,7 +15,7 @@ export default function Projects() {
       deskripsi: "Sebuah aplikasi untuk mendata tamu sekolah menggunakan qrcode.",
       teknologi: ["Laravel", "Tailwind CSS"],
       link: "https://github.com/budi-imam-prasetyo/GuBook-PendataanTamu",
-      gambar: Porto1
+      gambar: Porto2
     },
     {
       id: 2, 
@@ -23,7 +23,7 @@ export default function Projects() {
       deskripsi: "Website ini dibuat menggunakan WordPress untuk kemudahan pengelolaan konten.",
       teknologi: ["WordPress"],
       link: "https://pplg1.kelas.smkn11bdg.sch.id/",
-      gambar: Porto2
+      gambar: Porto1
     },
     {
       id: 3,

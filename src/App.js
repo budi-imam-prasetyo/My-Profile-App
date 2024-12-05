@@ -6,11 +6,14 @@ import About from "./pages/about";
 import Footer from "./components/Footer";
 import Contact from "./pages/contact";
 import Projects from "./pages/projects";
+import Stars from "./Stars.svg";
+
 
 function App() {
   return (
     <Router>
       <div className="bg-slate-800">
+        <img className="fixed top-0 left-0" src={Stars} alt="stars" />
         <Header />
         <Routes>
           <Route path="/" element={<Home/>} />
